@@ -57,7 +57,12 @@ th:first-child, td:first-child{
 	text-align: left;
 	font-size: 13px;
 }
-th:nth-child(2), td:nth-child(2), th:last-child, td:last-child{
+
+th:last-child{
+	width: 100px;
+	text-align: right;
+}
+th:nth-child(2), td:nth-child(2), td:last-child{
 	width: 50px;
 	text-align: center;
 }
