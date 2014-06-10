@@ -10,7 +10,7 @@ function checkForm(){
 	var items = $(rows).find(":radio:checked");
 	if(items.length >= 5){
 		$('.error-msg').hide();
-		window.location.replace("../../../projects/odesk_test_job/vera/feedback.html");
+		window.location.replace("feedback.html");
 	} else {
 		rows.removeClass('error');
 		var rowsNotSeleted = $("tbody tr:not(:has('input:radio:checked'))");
