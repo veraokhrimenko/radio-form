@@ -22,6 +22,7 @@ body{
 	-moz-background-size:cover;
 }
 
+
 .wrapper{
 	width: 400px;
 	background: #fff;
@@ -36,6 +37,9 @@ body{
 	clear: both;
 }
 
+h1{
+	margin: 10px 0;
+}
 .info{
 	background: url('../img/bg-top.jpg') left top no-repeat;
 	background-size: cover;
